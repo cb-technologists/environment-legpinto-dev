@@ -1,0 +1,35 @@
+apiVersion: v1
+data:
+  ca.crt: |
+    -----BEGIN CERTIFICATE-----
+    MIIDCzCCAfOgAwIBAgIQN12oIlXhK+CeWDw27iaQlTANBgkqhkiG9w0BAQsFADAv
+    MS0wKwYDVQQDEyRjZDU1OTkxNy05NjBkLTRiMTktYWFhNi1mMGUwODAyMWYyZGYw
+    HhcNMTkwNTE4MTgxODAzWhcNMjQwNTE2MTkxODAzWjAvMS0wKwYDVQQDEyRjZDU1
+    OTkxNy05NjBkLTRiMTktYWFhNi1mMGUwODAyMWYyZGYwggEiMA0GCSqGSIb3DQEB
+    AQUAA4IBDwAwggEKAoIBAQDNTXO//fWmDwelYnsk38zglAKNsAsG+rcJ8iMaDmUB
+    bHx7bqqnH7902joOUqNef3TNcctnT0cjY/En4ei9GWNY60FbfOJ3Hg0BFZlDTfdn
+    CwcvfZSTxAh65bQC9UY9+DILxNAFXi8wdIuzYWfvjB3LV+5+4tMLTeZKUW5Zye9J
+    UwSPbOQW9B3K+jBKbmr0qdD4JQ/oNPw1KvNMwRGOIyFnDIMAwKm5OWC06RHydKi4
+    RuLS0o8MVsOUrYdq7Uyc0sKRNNbFHrNRbTnh/l0IQURP4ng6kFCX4XhF6lZLhTlQ
+    7/oZOOEI/aYh9ZhKgEgtlNCmC9Y2dYUCmk/E29QFQUlTAgMBAAGjIzAhMA4GA1Ud
+    DwEB/wQEAwICBDAPBgNVHRMBAf8EBTADAQH/MA0GCSqGSIb3DQEBCwUAA4IBAQAr
+    +VcqAxF3DnWcVPP/VRQpTiIYqFD1h3tozpuXNJeuhpM7eZw87UiuCIR+rwNtcbBt
+    W1i2UanxU2WoKJvfXHqM29racKSg45/8ROgnFrN1lF6ezZAc0hpDxypjdZ4kNtFg
+    ZkrB3vPSmFkmwu+TXbvnZGXH37wFKHVlLiSMQQ7QDQaXp9orglx9ifQn8whR455L
+    eUt3BOue7sGhfr9oFQZ0GyhoDIXXGeYxbIC83Wx/M3jw+6Le4aR98SD1abGTG2lB
+    88VXFkJbxxGAXDdTGnGaIqzg9bpM+IkZkB+S+bQ0lQWGM0vSTdRHmj5xr6DDSCy1
+    blqA9EOgAEl4bKhWgFGt
+    -----END CERTIFICATE-----
+  clusterName: legpinto
+  jx-install-version: 2.0.139
+  kubeProvider: gke
+  projectID: technologists
+  region: ""
+  secretsLocation: vault
+  server: https://35.245.139.217
+  systemVaultName: jx-vault-legpinto
+  zone: us-east4-b
+kind: ConfigMap
+metadata:
+  creationTimestamp: null
+  name: jx-install-config
